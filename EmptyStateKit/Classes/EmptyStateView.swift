@@ -111,6 +111,8 @@ extension EmptyStateView {
     
     private func updateUI() {
         
+        layer.cornerRadius = format.cornerRadius
+        
         imageView.isHidden = false
         coverImageView.isHidden = true
         if let imageTintColor = format.imageTintColor {

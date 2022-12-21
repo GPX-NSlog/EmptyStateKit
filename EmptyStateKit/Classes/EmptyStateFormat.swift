@@ -10,6 +10,9 @@ import UIKit
 
 public struct EmptyStateFormat {
     
+    /// cornerRadius for emptyStateView
+    public var cornerRadius: CGFloat = 0
+    
     /// Title attributes
     public var titleAttributes: [NSAttributedString.Key: Any] = [.font: UIFont(name: "AvenirNext-DemiBold", size: 26)!, .foregroundColor: UIColor.darkGray]
     
