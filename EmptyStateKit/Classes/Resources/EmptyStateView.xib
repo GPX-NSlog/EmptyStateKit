@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -40,7 +38,7 @@
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0r6-no-wwh">
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0r6-no-wwh">
                             <rect key="frame" x="144.5" y="276" width="85" height="40"/>
                             <color key="backgroundColor" red="1" green="0.098039215686274508" blue="0.29803921568627451" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
@@ -96,6 +94,7 @@
                 <outlet property="coverImageViewBottomConstraint" destination="2QO-qW-X5L" id="e6n-tU-34t"/>
                 <outlet property="coverImageViewTopConstraint" destination="9UJ-NV-Ie9" id="3Ae-KC-EVK"/>
                 <outlet property="descriptionLabel" destination="Z0t-dd-RAQ" id="3Wx-Fk-wLq"/>
+                <outlet property="imageTitleSpacingConstraint" destination="VWz-Na-LPt" id="LFp-Vf-Buc"/>
                 <outlet property="imageView" destination="uaq-TP-W1h" id="M5c-F7-1uv"/>
                 <outlet property="imageViewBottomConstraint" destination="VWz-Na-LPt" id="Ctq-LF-74w"/>
                 <outlet property="imageViewHeightConstraint" destination="P88-XF-W2o" id="9YA-rH-Wa3"/>

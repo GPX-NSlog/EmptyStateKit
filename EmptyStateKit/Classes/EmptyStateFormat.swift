@@ -67,5 +67,7 @@ public struct EmptyStateFormat {
     /// Image size
     public var imageSize: CGSize = CGSize(width: 200, height: 200)
     
+    public var imageTitleSpacing: CGFloat = 26
+
     public init() {}
 }

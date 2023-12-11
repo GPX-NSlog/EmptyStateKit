@@ -37,7 +37,8 @@ class EmptyStateView: NibView {
     @IBOutlet var titleLabelTopConstraint: NSLayoutConstraint!
     @IBOutlet weak var coverImageViewTopConstraint: NSLayoutConstraint!
     @IBOutlet weak var coverImageViewBottomConstraint: NSLayoutConstraint!
-    
+    @IBOutlet weak var imageTitleSpacingConstraint: NSLayoutConstraint!
+
     struct ViewModel {
         var image: UIImage?
         var title: String?

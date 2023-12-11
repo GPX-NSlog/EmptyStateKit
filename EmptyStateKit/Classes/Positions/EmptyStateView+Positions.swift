@@ -45,6 +45,7 @@ extension EmptyStateView {
         messageViewCenterYConstraint.isActive = false
         messageViewTopConstraint.isActive = true
         messageViewTopConstraint.constant = format.verticalMargin
+        imageTitleSpacingConstraint.constant = format.imageTitleSpacing
     }
     
     func centerView() {
@@ -52,6 +53,7 @@ extension EmptyStateView {
         messageViewBottomConstraint.isActive = false
         messageViewCenterYConstraint.isActive = true
         messageViewCenterYConstraint.constant = format.verticalMargin
+        imageTitleSpacingConstraint.constant = format.imageTitleSpacing
     }
     
     func bottomView() {
@@ -59,6 +61,7 @@ extension EmptyStateView {
         messageViewTopConstraint.isActive = false
         messageViewBottomConstraint.isActive = true
         messageViewBottomConstraint.constant = format.verticalMargin
+        imageTitleSpacingConstraint.constant = format.imageTitleSpacing
     }
     
     func leftText() {
